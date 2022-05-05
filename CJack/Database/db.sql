@@ -12,10 +12,9 @@ create table users(
 
 create table user_data(
 	user_id int,
-    chips int default 1000,
     wins int default 0,
     losses int default 0,
-    chips_won int default 0,
-    chips_lost int default 0
+    pushes int default 0
 );
-insert into users (username, u_password) values("morty", "pw")
+#insert into users (username, u_password) values("1", "1");
+#insert into user_data (user_id) values (1);
